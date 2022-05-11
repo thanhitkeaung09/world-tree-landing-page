@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="scss/app.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+<!--nav bar-->
+<nav class="navbar navbar-expand-lg bg-light navbar-light  w-100 animate__animated content" style="z-index: 3000;" id="header">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center"  href="#">
+            <img src="images/leaf.png" class="img-fluid" alt="">
+            <p class="text-black mb-0 ms-3"><span class="text-primary">plan</span>thie</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-black ms-4 " aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-black ms-4 " aria-current="page" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-black ms-4 " aria-current="page" href="#">Contact</a>
+                </li>
+
+            </ul>
+            <a class="btn btn-primary text-white px-5 btn-lg text-decoration-none" href="index.html" style="border-radius: 15px">Home</a>
+        </div>
+    </div>
+</nav>
+<!--signup -->
+<div class="container-fluid">
+    <div class="row bg-sign-up-img  bg-md content">
+
+           <div class="col-lg-7 vh-100 d-lg-block d-md-none d-none"></div>
+            <div class="col-lg-5 vh-100 d-md-flex justify-content-md-center">
+                <div class="d-flex flex-column justify-content-center vh-100 width-md">
+                    <form action="">
+                        <div class="text-center">
+                            <p class="text-color mb-lg-0 mb-md-5 content">Already have an account? <br>
+                                <a href="login.html" class="text-decoration-none text-color content fw-bold">Log In</a>
+                            </p>
+                        </div>
+                        <div class="form-floating mb-3 content">
+                            <input type="text" class="form-control bg-md text-color border-md-bottom" id="floatingInput" placeholder="Enter Ur Name">
+                            <label for="floatingInput" class="text-color">Name</label>
+                        </div>
+                        <div class="form-floating mb-3 content">
+                            <input type="email" class="form-control bg-md text-color border-md-bottom" id="floatingEmail" placeholder="name@example.com">
+                            <label for="floatingPassword" class="text-color">Email</label>
+                        </div>
+
+                        <div class="form-floating mb-3 content">
+                            <input type="password" class="form-control bg-md text-color border-md-bottom    " id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword" class="text-color">Password</label>
+                        </div>
+
+                        <div class="mb-4 content">
+                            <button class="btn btn-primary w-100">SIGN UP</button>
+                        </div>
+                    </form>
+
+                    <p class="text-center mb-lg-2 text-white content">By Continuing, you agree to accept our <br>Privacy Policy and Term of Services. </p>
+
+                    <div class="d-flex content">
+                        <hr class="text-white w-50">
+                        <p class="d-inline bg-white p-lg-2 mx-lg-2" >OR</p>
+                        <hr class="text-white w-50">
+                    </div>
+
+                    <div class="">
+                        <button class="btn btn-warning mb-lg-3 mb-md-5 mb-4 w-100 d-flex bg-danger justify-content-center align-items-center mb-lg-2 content">
+                            <i class="fa-brands fa-facebook-square text-white"></i>
+                            <p class="mb-0 ms-4 text-white fw-bold">SIGN UP WITH FACEBOOK</p>
+                        </button>
+
+                        <button class="btn w-100 d-flex bg-light btn-outline-dark justify-content-center align-items-center content">
+                            <img src="images/login/icons8-google.svg" class="img-fluid " alt="">
+                            <p class="mb-0 ms-4 text-black fw-bold">SIGN UP WITH GOOGLE</p>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+</div>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

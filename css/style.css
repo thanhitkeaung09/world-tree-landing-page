@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.home-active{
+    background: #53c351;
+    border-radius: 5px;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+
+}
+
+.background-color{
+    background-repeat: no-repeat;
+    height: 500vh;
+    background-image: linear-gradient(to bottom, #e3eeec, #fffeee, #ffffee, #fffffe, #ffffff);
+}
+.grandfa{
+    margin-top: -100px;
+}
+.grandfa-rounded{
+    background-image: url(../images/bgbolb2.svg), url(../images/bgbolb3.svg), url(../images/bgbolb3.svg);
+    height: 71.5vh;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 30px !important;
+    background-position: 66px 25px , 500px -119px,890px 30px;
+}
+.carousel-height{
+    height: 30vh;
+    /*width:10%;*/
+}
+.next-icon-mb{
+    margin-bottom: 18vh;
+}
+.button-circle{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    margin-left: 10px !important;
+}
+.btn-margin-right{
+    margin-right: 220px !important;
+}
+.icon-width{
+    width: 150px;
+}
+.proofement-btn{
+    margin-left: 330px;
+}
+.ipad-height {
+    height: 100vh
+}
+.header{
+    background: #ffffff94;
+    backdrop-filter: blur(9px) contrast(150%);
+}
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .ipad-headfont{
+        font-size: 31px !important;
+    }
+    .ipad-bodyfont{
+        font-size: 15px !important;
+    }
+    .ipad-height {
+        height: 40vh;
+    }
+    .herojustify{
+        text-align: justify;
+    }
+    .nutri-mt{
+        margin-top: 10vh;
+    }
+    .ipad-grow-mt{
+        margin-top: -29vh;
+    }
+    .ipad-video-mt{
+        margin-top: -20vh;
+    }
+    .carousel-mt{
+        margin-top: -17vh;
+    }
+
+    .grandfa-rounded {
+        background-image: url(../images/bgbolb2.svg), url(../images/bgbolb3.svg), url(../images/bgbolb3.svg);
+        height: 38.5vh;
+        background-repeat: no-repeat;
+        background-size: auto;
+        border-radius: 30px !important;
+        background-position: 66px 25px , 500px -119px,890px 30px;
+    }
+    .grandfa {
+        margin-top: -44px;
+    }
+    .what-mt{
+        margin-top: 35px;
+    }
+    .btn-margin-right {
+        margin-right: 99px !important;
+        margin-bottom: 83px !important;
+    }
+    .carousel-height {
+        height: 34vh;
+        /* width: 10%; */
+    }
+    .slide-padding{
+        padding-top: 25px;
+    }
+    .partner-mt{
+        margin-top: 125px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad-height {
+        height: 100vh;
+    }
+    .phone-heroimg-mt{
+        margin-top:30px;
+    }
+
+    .ipad-headfont{
+        font-size: 25px !important;
+    }
+    .joinmb{
+        margin-bottom: 20px !important;
+    }
+    .instrufont{
+        font-size: 17px;
+    }
+    .container-mb{
+        margin-bottom: 50px;
+    }
+    .herojustify{
+        text-align: justify;
+    }
+    .nutri-mt{
+        margin-top: 80vh !important;
+    }
+    .nutri-width{
+        width: 100% !important;
+    }
+    .ipad-grow-mt{
+        margin-top: 10vh;
+    }
+    .ipad-video-mt {
+        margin-top: -3vh;
+    }
+    .carousel-mt {
+        margin-top: -6vh;
+    }
+    .proofement-btn {
+        margin-left: 1px;
+    }
+    .grandfa-rounded {
+        background-image: url(../images/bgbolb2.svg), url(../images/bgbolb3.svg), url(../images/bgbolb3.svg);
+        height: 50.5vh;
+        background-repeat: no-repeat;
+        background-size: auto;
+        border-radius: 30px !important;
+        background-position: 66px 25px , 500px -119px,890px 30px;
+    }
+    .carousel-height {
+        height: 42vh;
+    }
+    .partner-mt {
+        margin-top: 75vh;
+    }
+    .btn-margin-right {
+        margin-right: 60px !important;
+        margin-bottom: 83px !important;
+    }
+    /*.img-height{*/
+    /*    width: 300px !important;*/
+    /*}*/
+}
